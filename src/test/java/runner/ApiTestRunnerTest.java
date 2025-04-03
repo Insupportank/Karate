@@ -9,7 +9,7 @@ public class ApiTestRunnerTest {
 
     @org.junit.jupiter.api.Test
     public void testParallel(){
-        Results results = Runner.path("classpath:featuresFromXRAY").parallel(1);
+        Results results = Runner.path("classpath:features").parallel(1);
         Assert.assrt(results.getFailCount() == 0);
     }
 
