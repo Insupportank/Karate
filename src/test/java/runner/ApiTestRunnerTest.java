@@ -5,7 +5,7 @@ import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
 
 
-public class ApiTestRunner {
+public class ApiTestRunnerTest {
 
     @org.junit.jupiter.api.Test
     public void testParallel(){
